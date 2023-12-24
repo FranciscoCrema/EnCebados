@@ -1,0 +1,82 @@
+@import "../vatiable.scss";
+
+.content {
+  background: $color-backgraund;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo__link {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 3px;
+
+    .logo {
+      width: 8rem;
+      height: 5rem;
+
+      border-radius: 6rem;
+    }
+  }
+
+  .content__nav {
+    .menu__list {
+      font-size: 1.2rem;
+      display: flex;
+
+      .menu__option {
+        list-style: none;
+        padding: 2rem;
+
+        a {
+          color: $color-list;
+          text-decoration: none;
+          cursor: pointer;
+          transition: all 300ms ease-in-out;
+        }
+        a:hover {
+          color: $color-list-hover;
+        }
+      }
+    }
+  }
+
+  .content__cart {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    .cart-link {
+      color: $color-list;
+
+      display: flex;
+      align-items: center;
+      transition: all 300ms ease-in-out;
+
+      .icon {
+        margin-top: 5px;
+      }
+    }
+
+    .cart__cont {
+      color: $color-list;
+      padding: 2px;
+      margin-left: 2px;
+      transition: all 300ms ease-in-out;
+    }
+
+    .cart-link:hover {
+      color: $color-list-hover;
+    }
+
+    .cart__cont:hover {
+      color: $color-list-hover;
+    }
+  }
+}

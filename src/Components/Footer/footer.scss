@@ -1,0 +1,36 @@
+@import "../vatiable.scss";
+
+.footer {
+  background: $color-backgraund;
+  width: 100%;
+  height: auto;
+
+  .content__footer {
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .contact-email {
+      color: $color-list;
+    }
+
+    .user-info__footer {
+      a {
+        color: $color-list;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+    }
+
+    .user-social {
+      display: flex;
+      flex-direction: column;
+
+      .icon {
+        color: $color-list;
+        font-size: 2rem;
+      }
+    }
+  }
+}
