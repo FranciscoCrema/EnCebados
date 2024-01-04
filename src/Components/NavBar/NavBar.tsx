@@ -8,11 +8,7 @@ function NavBar() {
     <header className="content">
       <div className="logo__link">
         <Link to={"/"}>
-          <img
-            src="/public/img/EnCebados.png"
-            alt="EnCebados"
-            className="logo"
-          />
+          <img src="/public/img/Logo.png" alt="EnCebados" className="logo" />
         </Link>
       </div>
 
